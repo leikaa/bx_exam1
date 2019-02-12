@@ -1,15 +1,15 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Поиск", 
-		"/index.php", 
+		"Опросы", 
+		"/ask/index.php", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Карта сайта", 
-		"map.php", 
+		"Актуальный опрос", 
+		"/ask/current.php", 
 		Array(), 
 		Array(), 
 		"" 

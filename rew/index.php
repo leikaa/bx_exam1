@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Отзывы");
+$APPLICATION->SetTitle("Otzyvy");
 ?><?$APPLICATION->IncludeComponent(
 	"bitrix:news", 
 	"rew_list", 
@@ -79,7 +79,7 @@ $APPLICATION->SetTitle("Отзывы");
 		"DETAIL_DISPLAY_BOTTOM_PAGER" => "Y",
 		"DETAIL_PAGER_TITLE" => "Страница",
 		"DETAIL_PAGER_TEMPLATE" => "",
-		"DETAIL_PAGER_SHOW_ALL" => "Y",
+		"DETAIL_PAGER_SHOW_ALL" => "N",
 		"PAGER_TEMPLATE" => "modern",
 		"DISPLAY_TOP_PAGER" => "N",
 		"DISPLAY_BOTTOM_PAGER" => "Y",

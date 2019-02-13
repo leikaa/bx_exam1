@@ -35,7 +35,7 @@ $this->setFrameMode(true);
                                 <img src="<?=SITE_TEMPLATE_PATH?>/image/no_photo_left_block.jpg" alt="">
                             <?endif;?>
                         </div>
-                        <div class="name-block"><a href=""><?=$arItem["NAME"]?></a></div>
+                        <div class="name-block"><a href="<?=$arItem["DISPLAY_PROPERTIES"]["LINK"]["VALUE"]?>"><?=$arItem["NAME"]?></a></div>
                         <div class="pos-block"><?=$arItem["DISPLAY_PROPERTIES"]["POSITION"]["VALUE"]?>,"<?=$arItem["DISPLAY_PROPERTIES"]["COMPANY"]["VALUE"]?>"</div>
                     </div>
                     <div class="text-block">

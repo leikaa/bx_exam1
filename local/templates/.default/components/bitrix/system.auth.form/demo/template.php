@@ -84,7 +84,7 @@ CJSCore::Init();
                 "logout",
                 "forgot_password",
                 "change_password"));?>" rel="nofollow"><?=GetMessage("AUTH_REGISTER")?></a></noindex></li>
-        
+
             <?if($arResult["AUTH_SERVICES"]):?>
                 <?
                 $APPLICATION->IncludeComponent("bitrix:socserv.auth.form", "",

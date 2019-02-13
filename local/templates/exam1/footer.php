@@ -110,7 +110,8 @@
 		"PROPERTY_CODE" => array(
 			0 => "POSITION",
 			1 => "COMPANY",
-			2 => "",
+			2 => "LINK",
+			3 => "",
 		),
 		"SET_BROWSER_TITLE" => "N",
 		"SET_LAST_MODIFIED" => "N",
